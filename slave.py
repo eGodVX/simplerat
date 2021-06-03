@@ -4,7 +4,7 @@ import socket
 import os
 
 s = socket.socket()
-host = "DESKTOP-P3NILB5"
+host = "hostname here"
 port = 8080
 s.connect((host,port))
 print("")
